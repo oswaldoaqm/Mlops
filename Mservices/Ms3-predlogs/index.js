@@ -22,7 +22,7 @@ const swaggerSpec = swaggerJsdoc({
       version: '1.0.0',
       description: 'Microservicio de logs de predicciones ML. Node.js + Express + MongoDB.'
     },
-    servers: [{ url: `http://localhost:${PORT}` }]
+    servers: [{ url: `/` }]
   },
   apis: ['./routes/*.js']
 });
